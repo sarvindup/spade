@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    transition: .5s;
+}
+.navbar-brand h1{
+    color: #ff4d4d;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand {
+    font-weight: lighter;
+    color: #ff4d4d;
+}
+.navbar-brand:hover{
+    color: #ff4d4d;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-item{
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #ff4d4d;
+    margin-right: -35px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background-image: url(IMAGE/hero-1.jpg.webp);
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(61, 60, 60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.row-1{
+    justify-content: center;
+}
+.btn2{
+    background-color: #ff4d4d;
+    font-weight: 700;
+    color: white;
+    height: 35px;
+    width: 50%;
+    border-radius: 60px;
+    border: none;
+    margin-top: 10px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(47, 47, 47);
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff4d4d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .nav-tabs .nav-link{
+    color: rgb(44, 44, 44);
+    transition: .5s;
+  }
+  .nav-tabs .nav-link:hover{
+    background-color: #ff4d4d;
+    color: white;
+  }
